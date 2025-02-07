@@ -5,7 +5,7 @@ const QrScanner: React.FC = () => {
   return (
     <div>
       <h2>QR Scanner</h2>
-    
+     
     </div>
   )
 }
