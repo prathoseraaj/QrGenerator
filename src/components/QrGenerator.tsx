@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './QrGenerator.css'
 import {QRCodeCanvas}  from "qrcode.react";
 
 const QrGenerator: React.FC = () => {
@@ -6,7 +7,7 @@ const QrGenerator: React.FC = () => {
   const [text,setText] = useState(""); 
 
   return (
-    <div>
+    <div className='generator'>
         <h2>
           Qr code Generator
         </h2>
@@ -15,7 +16,7 @@ const QrGenerator: React.FC = () => {
                 value={text}
                 onChange={(e)=>setText(e.target.value)}
         />
-        {text && <QRCodeCanvas value={text} size={200} />}
+        {text && <QRCodeCanvas className='scanner' value={text} size={200} />}
     </div>
   )
 }

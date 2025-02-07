@@ -1,0 +1,8 @@
+.generator{
+    display: flex;
+    flex-direction: column;
+}
+
+.scanner{
+    padding-top: 20px;
+}
