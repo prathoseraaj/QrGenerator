@@ -6,6 +6,17 @@
   height: 100vh;
 }
 
+.buttons{
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 0cap;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
