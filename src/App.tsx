@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import QrGenerator from './components/QrGenerator';
+import QrScanner from './components/QrScanner';
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
         <button onClick={() =>setTab('generator') }>Qr Generator</button>
         <button onClick={() =>setTab('scanner')}>Qr Scanner</button>
       </div>
+      {tab === 'generator'? <QrGenerator/> : <QrScanner/>}
     </div>
   );
 }
