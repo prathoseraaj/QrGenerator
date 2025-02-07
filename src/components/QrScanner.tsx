@@ -10,7 +10,11 @@ const QrScanner: React.FC = () => {
       <h2>QR Scanner</h2>
       <QrReader
       onResult={(result,error) =>{
-        if (result) setScanResult(result.getText())
+        if (result){ setScanResult(result.getText())}
+        else{
+          console.error(error);
+        }
+        
       }}
       constraints={{facingMode: 'environment'}}
       />
