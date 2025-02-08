@@ -4,7 +4,7 @@ A simple and efficient **QR Code Generator & Scanner** built with **React.js**! 
 
 
 
-## 🛠 Features
+##  Features
 
 - Generate QR codes from text or URLs 
 - Scan and decode QR codes in real time 
