@@ -6,6 +6,13 @@ import { BiSearchAlt } from "react-icons/bi";
 const QrGenerator: React.FC = () => {
 
   const [text, setText] = useState("");
+  const [qrValue, setQrValue] = useState("");
+
+  const handleQrGeneration = () => {
+    if (text.trim() !== "") {
+      setQrValue(text);
+    }
+  };
 
   return (
     <div className='generator'>
@@ -18,9 +25,11 @@ const QrGenerator: React.FC = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        <BiSearchAlt className='search-button'/>
+        <BiSearchAlt className='search-button' onClick={handleQrGeneration}/>
       </div>
-      {text && <QRCodeCanvas className='scanner' value={text} size={200} />}
+      {qrValue && (
+          <QRCodeCanvas className='scanner' value={qrValue} size={200} />
+      )}
     </div>
   )
 }
