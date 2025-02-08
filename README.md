@@ -16,7 +16,7 @@
 ## 🏗 Tech Stack
 
 - **React.js** ⚛️
-- **TypeScript **
+- TypeScript
 - **qrcode.react** (QR Code Generator)
 - **react-qr-reader** (QR Code Scanner)
 
