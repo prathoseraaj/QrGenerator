@@ -16,6 +16,10 @@
   cursor: pointer;
 }
 
+.buttons:hover{
+  background-color: #0056b3;;
+}
+
 
 @keyframes App-logo-spin {
   from {
