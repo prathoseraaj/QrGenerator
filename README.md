@@ -1,13 +1,6 @@
-# 📌 QR Code Generator & Scanner
+#  QR Code Generator & Scanner
 
 🚀 A simple and efficient **QR Code Generator & Scanner** built with **React.js**! This app allows users to generate QR codes from text/URLs and scan QR codes in real time.
-
----
-
-## 📷 Demo
-🔗 **Live Demo:** [Your Live Link Here]
-
-![QR Code Generator Screenshot](https://your-image-url.com)
 
 ---
 
@@ -23,10 +16,9 @@
 ## 🏗 Tech Stack
 
 - **React.js** ⚛️
-- **TypeScript (if used)**
+- **TypeScript **
 - **qrcode.react** (QR Code Generator)
 - **react-qr-reader** (QR Code Scanner)
-- **Tailwind CSS / CSS Modules** (Styling)
 
 ---
 
@@ -100,6 +92,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 💡 Connect with Me
-🔗 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)  
-🐙 GitHub: [Your GitHub Profile](https://github.com/your-username)
