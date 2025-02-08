@@ -13,9 +13,9 @@ A simple and efficient **QR Code Generator & Scanner** built with **React.js**! 
 
 
 
-## 🏗 Tech Stack
+##  Tech Stack
 
-- **React.js** ⚛
+- **React.js** 
 - TypeScript
 - **qrcode.react** (QR Code Generator)
 - **react-qr-reader** (QR Code Scanner)
